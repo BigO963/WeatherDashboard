@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "weatherdashboard.client", "weatherdashboard.client\weatherdashboard.client.esproj", "{0836E944-1A21-A4CC-7E4D-705B38F44C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherDashboard.Server", "WeatherDashboard.Server\WeatherDashboard.Server.csproj", "{059A5F4B-1D9E-4C3B-802B-F1DC8BA03839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0836E944-1A21-A4CC-7E4D-705B38F44C20}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{059A5F4B-1D9E-4C3B-802B-F1DC8BA03839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059A5F4B-1D9E-4C3B-802B-F1DC8BA03839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059A5F4B-1D9E-4C3B-802B-F1DC8BA03839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059A5F4B-1D9E-4C3B-802B-F1DC8BA03839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61FFE175-6476-44BA-9A11-6E44BA89F30A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+@WeatherDashboard.Server_HostAddress = http://localhost:5021
+
+GET {{WeatherDashboard.Server_HostAddress}}/WeatherForecasts
+Accept: application/json
+
+
+
+###
