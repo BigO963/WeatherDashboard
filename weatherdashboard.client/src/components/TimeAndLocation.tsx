@@ -51,10 +51,12 @@ function TimeAndLocation() {
         <div className="TimeAndLocation bg-dark 
                 rounded-5 text-light d-flex
                 flex-column align-items-center mt-5 shadow-lg">
-            <h2>{city ? city : "Loading..."}</h2>
-            <h1 className="mt-4">{location?.time ? `${location.time}` : "Loading..."}</h1>
-            <h3>{ location?.date ? `${location.date}` : "Loading..."}</h3>
-            {error && <p>{error}</p>}
+            <div className="mt-5 text-center">
+                <h2 className="mb-5">{city ? city : "Loading..."}</h2>
+                <p className="time mt-4 fw-bold">{location?.time ? `${location.time}` : "Loading..."}</p>
+                <h3 className="">{ location?.date ? `${location.date}` : "Loading..."}</h3>
+                {error && <p>{error}</p>}
+            </div>
         </div>
     );
 }

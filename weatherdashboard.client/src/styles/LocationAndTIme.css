@@ -1,5 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root,  {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Wrapper {
+    height: 92vh;
+}
+
+.Top {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.Summary {
+    width: 40%;
+}
+
+.sunIcon > img, .humidity, .wind, .pressure, .uv {
+    filter: invert(1);
+}
+
 .TimeAndLocation {
-    width: 25%;
-    height: 200px;
+    width: 30%;
     margin-left: 10%;
+}
+
+.gradient-custom {
+    background: rgb(54,53,53);
+    background: linear-gradient(165deg, rgba(54,53,53,1) 0%, rgba(255,255,255,1) 51%);
+}
+
+.fiveDayForecast {
+    width: 20%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.hourlyForecast {
+    width: 50%;
+    height: 100%;
+}
+
+.list-group-item {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.list-group-item > img {
+    width: 32px;
+    height: 32px;
+}
+
+.list-group-item > p {
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.date {
+    margin: 0;
+    padding: 0;
+}
+
+.forecast {
+    width: 130px;
+    background-color: hsla(1, 1%, 6%, 1);
+    margin-left: 5%;
+}
+
+.weatherIcon {
+    width: 64px;
+    height: 64px;
+}
+
+.NW {
+    transform: rotate(-30deg);
+}
+
+.NE {
+    transform: rotate(30deg);
+}
+
+.time {
+    font-size: 4rem;
 }
